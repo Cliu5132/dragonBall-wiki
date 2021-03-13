@@ -1,0 +1,219 @@
+/*css for quick settings*/
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.font-orange {
+  color: #f9c244;
+}
+
+.font-blue {
+  color: #0a6cb2;
+}
+
+h1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+/* css for common pages*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1em 9.5em 0;
+  min-height: 100vh;
+  background-image: url(../images/Wiki-background.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  margin-left: 10px;
+  text-shadow: 3px 2px 4px rgb(100, 66, 2);
+}
+header h3 {
+  display: block;
+  width: 350px;
+  text-align: right;
+}
+header img:last-of-type {
+  border: 2px solid #2e9af2;
+}
+
+/*Nav Bar Enabling Three Tier*/
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav > ul > li {
+  position: relative;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+nav ul ul ul {
+  top: 0;
+  left: 100%;
+}
+nav li:hover > ul {
+  display: block;
+}
+
+/*Nav Bar Decoration*/
+nav {
+  font: 1em/1.4 Arial, Verdana, sans-serif;
+}
+nav ul ul {
+  min-width: 10em;
+  box-shadow: inset 0 0 2px;
+  background-color: lightsteelblue;
+}
+nav li {
+  min-width: 10em;
+  text-decoration: none;
+}
+nav a {
+  display: block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+nav > ul > li {
+  margin: 0 1px;
+  background: linear-gradient(#006cbc, #004184);
+  margin-right: 2em;
+  border-radius: 5px;
+}
+nav > ul > li > ul {
+  margin-left: 3px;
+}
+nav > ul > li:hover {
+  background: linear-gradient(#60acce, #0a6cb2);
+}
+nav > ul > li > a {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+nav ul ul a {
+  font-weight: 700;
+}
+nav ul ul a:hover {
+  background: navy;
+  color: white;
+}
+
+/*main content with three columns*/
+#content {
+  width: 1050px;
+  height: 650px;
+  background-color: #f5e9ce;
+  margin: 15px auto;
+  border: 2px solid #2e9af2;
+}
+#sidebarA {
+  width: 25%;
+  height: 650px; /* to give the sidebar some height                           for its border */
+  float: left;
+  border-right: 2px solid #2e9af2;
+  text-align: center;
+}
+#sidebarA > a {
+  display: block;
+  margin-top: 1.5em;
+}
+
+#sidebarA img {
+  border: 2px solid #2e9af2;
+}
+
+main {
+  width: 521px;
+  float: left;
+}
+main h3,
+main p {
+  margin: 2em;
+}
+#sidebarB {
+  width: 25%;
+  height: 650px; /* to give the sidebar some height                           for its border */
+  float: right;
+  border-left: 2px solid #2e9af2;
+}
+
+#sidebarA img {
+  width: 100px;
+  height: 100px;
+}
+main h2,
+#sidebarA h2,
+#sidebarB h2 {
+  background-color: #f8a333;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 130%;
+  padding: 0.2em 0.4em;
+  margin-top: 0;
+}
+#sidebarB a {
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  padding: 4px;
+  margin-left: 20px;
+}
+
+/* the styles for the footer */
+footer {
+  clear: both;
+  padding-top: 0.2em;
+  margin: 1em 0;
+  background-color: #f8a333;
+  border: 1px solid #aaaaaa;
+  border-radius: 2px;
+  color: #000;
+}
+
+footer p {
+  font-size: 80%;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  padding: 2px;
+}

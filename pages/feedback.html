@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dragon Ball Wiki</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="http://www.google.com/s2/favicons?domain=dragonball.fandom.com/"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/feedback.css" />
+  </head>
+
+  <body>
+    <!--Title Area with Image-->
+    <header>
+      <img
+        src="../images/Wiki-wordmark.png"
+        width="250"
+        height="65"
+        alt="Dragon Ball Wiki Logo​"
+      />
+      <h1>Dragon Ball Wiki</h1>
+      <h3>You are now viewing the Feedback Page!</h3>
+      <img src="../images/Cbgohan.png" alt="feedback" />
+    </header>
+    <!--Three Tier Nav Bar-->
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+          <ul>
+            <li>
+              <a href="#">Episode 1</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Episode 2</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./image.html">Images</a>
+          <ul>
+            <li>
+              <a href="#">Episode 1</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Episode 2</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./media.html">Media</a>
+          <ul>
+            <li>
+              <a href="#">Episode 1</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Episode 2</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="./feedback.html">Feedback</a>
+          <ul>
+            <li>
+              <a href="#">Episode 1</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Episode 2</a>
+              <ul>
+                <li><a href="#">Watch Online</a></li>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Buy CDs</a></li>
+                <li><a href="#">Scripts</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!--Main content three columns-->
+    <section id="content" class="font-blue">
+      <aside id="sidebarA">
+        <h2>Navigation</h2>
+        <a href="../index.html" class="imgNav">
+          <figure>
+            <img src="../images/Cbgoku.png" alt="home" />
+            <figcaption>Home</figcaption>
+          </figure>
+        </a>
+        <a href="./image.html" class="imgNav">
+          <figure>
+            <img src="../images/Cbvegeta.png" alt="images" />
+            <figcaption>Images</figcaption>
+          </figure>
+        </a>
+        <a href="./media.html" class="imgNav">
+          <figure>
+            <img src="../images/Cbpiccolo.png" alt="media" />
+            <figcaption>Media</figcaption>
+          </figure>
+        </a>
+        <a href="./feedback.html" class="imgNav">
+          <figure>
+            <img src="../images/Cbgohan.png" alt="feedback" />
+            <figcaption>Feedback</figcaption>
+          </figure>
+        </a>
+      </aside>
+      <main>
+        <h2>Main Content</h2>
+        <form name="feedback" id="feedback" action="#" method="post">
+          <fieldset>
+            <legend>Basic Info</legend>
+            <input type="text" name="name" id="name" required autofocus />
+            <label for="name">Name</label><br />
+            <input type="text" name="address" id="address" required />
+            <label for="address">Address</label><br />
+            <input type="email" name="email" id="email" required />
+            <label for="email">Email</label><br />
+          </fieldset>
+
+          <fieldset>
+            <legend>Win special gifts</legend>
+            <select name="fighters" id="fighters">
+              <optgroup label="Good guys">
+                <option value="goku">Goku</option>
+                <option value="vegeta">Vegeta</option>
+                <option value="gohan">Gohan</option>
+              </optgroup>
+              <optgroup label="Bad guys">
+                <option value="frieza">Frieza</option>
+                <option value="cell">Cell</option>
+                <option value="majin Buu">Majin Buu</option>
+              </optgroup>
+            </select>
+            <label for="fighters">Choose your favorite fighter</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Which attack technique do you like the most?</legend>
+            <input type="checkbox" name="hero" id="check" />
+            <label>Kamehameha</label>
+            <br />
+            <input type="checkbox" name="hero" id="check" />
+            <label>Kaio-ken</label>
+            <br />
+            <input type="checkbox" name="hero" id="check" />
+            <label>Fusion Dance</label>
+            <br />
+            <input type="checkbox" name="hero" id="check" />
+            <label>Saiyan Power</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Comment :</legend>
+            <textarea id="comment" placeholder="Type here"></textarea><br />
+          </fieldset>
+          <input type="submit" id="submit" value="Submit" />
+          <input
+            type="button"
+            id="message"
+            value="Acknowlegement"
+            onClick="return alert('Please understand, by submitting this form, you give us the right to collect and store your information.');"
+          />
+        </form>
+      </main>
+      <aside id="sidebarB">
+        <h2>More Info</h2>
+        <fieldset>
+          <legend>How long have you been here?</legend>
+          <input type="radio" name="crust" id="crust1" value="thin" />
+          <label for="crust1">The first time</label><br />
+          <input type="radio" name="crust" id="crust2" value="deep" />
+          <label for="crust2">For a while</label><br />
+          <input type="radio" name="crust" id="crust3" value="thin" />
+          <label for="crust1">For centuries</label><br />
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Select your wishes</legend>
+          <input
+            type="checkbox"
+            name="topping1"
+            id="topping1"
+            value="pepperoni"
+          />
+          <label for="topping1">CDs</label><br />
+          <input
+            type="checkbox"
+            name="topping1"
+            id="topping2"
+            value="pepperoni"
+          />
+          <label for="topping1">Online Access</label><br />
+          <input
+            type="checkbox"
+            name="topping1"
+            id="topping3"
+            value="pepperoni"
+          />
+          <label for="topping1">Books</label><br />
+          <input
+            type="checkbox"
+            name="topping1"
+            id="topping4"
+            value="pepperoni"
+          />
+          <label for="topping1">Video Games</label><br />
+        </fieldset>
+      </aside>
+    </section>
+    <!--Footer-->
+    <footer>
+      <p>&copy; Copyright Cong Liu</p>
+    </footer>
+  </body>
+</html>

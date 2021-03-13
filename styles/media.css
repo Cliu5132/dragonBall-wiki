@@ -1,0 +1,9 @@
+main h2 {
+  margin-bottom: 0.2em;
+}
+
+#audioplayer,
+#videoplayer,
+#youtube {
+  margin: 0 1em;
+}

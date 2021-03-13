@@ -1,0 +1,47 @@
+#imageContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+}
+#imageContainer div {
+  border: 2px solid #2e9af2;
+}
+#imageContainer figure {
+  margin: 0;
+}
+#imageContainer figcaption {
+  text-align: center;
+}
+
+#image1 {
+  background-image: url(../images/Cbfrieza.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+#image1:hover {
+  background-image: url(../images/Frieza5.jpg);
+}
+
+#image2 {
+  background-image: url(../images/Cbgoku.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+#image2:hover {
+  background-image: url(../images/GokuSS.jpg);
+}
+
+#image3 {
+  background-image: url(../images/Cbvegeta.png);
+  width: 100px;
+  height: 100px;
+  background-size: 100px;
+  background-repeat: no-repeat;
+}
+#image3:hover {
+  background-image: url(../images/VegetaSS.jpg);
+}
